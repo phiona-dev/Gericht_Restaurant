@@ -1,0 +1,68 @@
+.hero {
+    display: flex;
+    height: 40vh;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+    position: relative;
+    padding: 0 20px;
+}
+
+.hero__side-text {
+    transform: rotate(-90deg);
+    margin-top: 50px;
+    word-spacing: 24px;
+    opacity: 0.8;
+}
+
+.hero__content {
+    z-index: 10;
+    margin-top: 80px;
+}
+
+.hero__content button {
+    padding: 10px 25px;
+    width: 200px;
+    font-family: var(--cormorant-upright);
+    font-size: 18px;
+    background: var(--primary-color);
+    font-weight: 700;
+    cursor: pointer
+}
+
+.hero__image {
+    width: 60%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+
+.hero__steak-img {
+    width: 55%;
+    z-index: 2;
+    position: relative;
+}
+
+.rectangle-1,
+.rectangle-2 {
+    position: absolute;
+    z-index: 1;
+}
+
+.rectangle-1 {
+    top: 235px;
+    right: 200px;
+}
+
+.rectangle-2 {
+    bottom: -20px;
+    left: 200px;
+}
+
+.rectangle-1 img,
+.rectangle-2 img {
+    width: 310px;
+    height: auto
+}
