@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cormorant-upright: "Cormorant Upright", serif; 
+
+    --primary-color: #DCCA87;
+    --secondary-color: #0C0C0C;
+
+    --gray-700: #545454;
+    --gray-400: #AAAAAA;
+    --neutral-100: #FAFAFA;
+    --neutral-200: #F5EFDB;
+    --white: #FFFFFF
+}
