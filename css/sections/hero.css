@@ -20,16 +20,6 @@
     margin-top: 80px;
 }
 
-.hero__content button {
-    padding: 10px 25px;
-    width: 200px;
-    font-family: var(--cormorant-upright);
-    font-size: 18px;
-    background: var(--primary-color);
-    font-weight: 700;
-    cursor: pointer
-}
-
 .hero__image {
     width: 60%;
     position: relative;

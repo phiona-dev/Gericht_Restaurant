@@ -2,6 +2,7 @@
 
 @import url("sections/navbar.css");
 @import url("sections/hero.css");
+@import url("sections/about-us.css");
 
 :root {
     --cormorant-upright: "Cormorant Upright", serif; 
@@ -46,4 +47,14 @@ body {
     margin-bottom: 30px;
     line-height: 25px;
     opacity: 0.5;
+}
+
+button {
+    padding: 10px 25px;
+    width: 200px;
+    font-family: var(--cormorant-upright);
+    font-size: 18px;
+    background: var(--primary-color);
+    font-weight: 700;
+    cursor: pointer
 }
