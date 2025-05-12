@@ -1,0 +1,62 @@
+.menu {
+    margin-top: 100px;
+}
+.menu-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu__contents {
+    display: flex;
+    justify-content: center;
+}
+
+.menu__wine h4,
+.menu__cocktails h4 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: var(--cormorant-upright);
+}
+
+.menu__wine p,
+.menu__cocktails p {
+    opacity: 0.5;
+}
+
+.menu__wine ul,
+.menu__cocktails ul {
+    width: 300px;
+    list-style: none;
+}
+
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-item hr {
+    width: 20%;
+    opacity: 0.5;
+}
+
+.menu-item h3 {
+    color: var(--primary-color);
+    opacity: 0.8
+}
+
+.menu__items {
+    margin-bottom: 20px;
+}
+
+.menu__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}

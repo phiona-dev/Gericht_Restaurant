@@ -4,6 +4,7 @@
 @import url("sections/hero.css");
 @import url("sections/about-us.css");
 @import url("sections/reservations.css");
+@import url("sections/menu.css");
 
 :root {
     --cormorant-upright: "Cormorant Upright", serif; 
@@ -62,7 +63,7 @@ button {
 
 .menu-picture img{
     width: 100%;
-    height: 900px;
+    height: 750px;
     object-fit: contain;
     margin-top: 100px;
 }
