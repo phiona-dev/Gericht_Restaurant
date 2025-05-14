@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Bestermind";
+    src: url("../../fonts/BestermindRegular.ttf") format("truetype");
+}
+
+.chef {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 200px;
+}
+
+.chef__signature {
+    font-family: "Bestermind", sans-serif;
+    font-size: 64px;
+}
+
+span {
+    font-family: var(--cormorant-upright);
+    font-size: 48px;
+    color: ar(--white)
+}
+
+.chef__name {
+    color: var(--primary-color);
+    font-size: 22px;
+    font-family: var(--cormorant-upright);
+}
