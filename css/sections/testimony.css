@@ -1,0 +1,29 @@
+.testimony {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px
+}
+
+.testimony__customers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem
+}
+
+.testimony__customers-name {
+    color: var(--primary-color);
+    font-size: 22px;
+    font-family: var(--cormorant-upright);
+}
+
+.testimony__customers-content {
+   display: flex;
+   justify-content: center;
+   align-items: center
+}
+
+.testimony__customers-details {
+    flex-direction: column;
+}
