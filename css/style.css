@@ -69,3 +69,9 @@ button {
     object-fit: contain;
     margin-top: 100px;
 }
+
+.semi-title {
+    color: var(--primary-color);
+    font-size: 22px;
+    font-family: var(--cormorant-upright);
+}
